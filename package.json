@@ -1,0 +1,30 @@
+{
+  "name": "attested-completion-capsule",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "description": "Portable unsigned integrity manifest for verified deliveries.",
+  "main": "attested-completion-capsule.js",
+  "exports": {
+    ".": "./attested-completion-capsule.js"
+  },
+  "files": [
+    "attested-completion-capsule.js",
+    "artifact-freshness-guard.js",
+    "completion-receipt.js",
+    "evidence-ledger.js",
+    "README.md",
+    "LICENSE",
+    "package.json"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "agents",
+    "reliability",
+    "verification",
+    "attested-completion-capsule"
+  ],
+  "license": "MIT"
+}
